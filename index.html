@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartCart - Personalized E-Commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SmartCart</h1>
+    <p>Your AI-powered shopping companion</p>
+  </header>
+
+  <main>
+    <section id="products" class="product-list"></section>
+  </main>
+
+  <!-- Chatbot Widget -->
+  <div class="chatbot-container" id="chatbot">
+    <div class="chat-header">SmartCart AI</div>
+    <div class="chat-body" id="chat-body">
+      <div class="bot-msg">Hi! I'm your shopping assistant. Ask me for suggestions!</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Ask me..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
